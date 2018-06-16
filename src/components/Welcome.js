@@ -37,7 +37,11 @@ class Welcome extends Component {
         <SubText>Certify and Recieve Your Credentials</SubText>
         <ConnectUport
           onClick={this.connectUport}>
-          Connect with uPort
+          Employees
+        </ConnectUport>
+        <ConnectUport
+          onClick={this.connectUport}>
+          Management
         </ConnectUport>
       </WelcomeWrap>
     )
