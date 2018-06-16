@@ -33,8 +33,8 @@ class Welcome extends Component {
   render () {
     return (
       <WelcomeWrap>
-        <h4>Build a Better dApp</h4>
-        <SubText>Identity and transaction infrastructure for Ethereum</SubText>
+        <h4>uPort Decentralized Training Portal</h4>
+        <SubText>Certify and Recieve Your Credentials</SubText>
         <ConnectUport
           onClick={this.connectUport}>
           Connect with uPort

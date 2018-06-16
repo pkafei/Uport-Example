@@ -40,7 +40,7 @@ const SubText = styled.p`
 `
 
 const RELATIONSHIPCLAIM = 'User'
-const CERTIFICATECLAIM = 'uPort Demo'
+const CERTIFICATECLAIM = 'Certificate of Completion'
 
 class CollectCredentials extends Component {
 
@@ -79,7 +79,7 @@ class CollectCredentials extends Component {
   render (props) {
     return (
       <CredentialsWrap>
-        <h4>Reclaim ownership of your data</h4>
+        <h4>Obtain Your Training Certificate</h4>
         <CredentialsArea>
           <CredsTable>
             <tbody>
@@ -101,7 +101,7 @@ class CollectCredentials extends Component {
               </tr>
               <tr>
                 <td>
-                  <CredsLabel>Certificate: uPort Demo</CredsLabel>
+                  <CredsLabel>Certificate: Employee Training</CredsLabel>
                 </td>
                 <td>
                   <CredsButton onClick={this.credentialsbtnClickC}>Get</CredsButton>

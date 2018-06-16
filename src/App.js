@@ -47,7 +47,7 @@ class App extends Component {
           {
             this.props.signTransactionPage === true &&
             !this.props.collectCredentialsPage
-              ? <SignTransaction />
+              ? <CollectCredentials />
               : null
           }
           {
