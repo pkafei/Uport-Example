@@ -9,7 +9,7 @@ class LogOut extends Component {
     return (
       <LogOutWrap>
         <h4>Log out</h4>
-        <h6>Goodbye. Adios. Auf Wiedersehen.</h6>
+        <h6>Bye, good folks!</h6>
       </LogOutWrap>
     )
   }
